@@ -7,6 +7,11 @@ class Node:
 def max_depth(root):
     if root is None:
         return 0
+    '''
+    lh = max_depth(root.left)
+    rh = max_depth(root.right)
+    return 1 + max(lh, rh)
+    '''
     return 1 + max(max_depth(root.left), max_depth(root.right))
 
 root = Node(1)
