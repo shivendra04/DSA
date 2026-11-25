@@ -37,7 +37,7 @@ Sample Output 2:
 2
 
 '''
-'''
+
 # recursion
 import sys
 def frog_jump(height, ind):
@@ -53,8 +53,7 @@ def main():
     heights = [10, 50, 10]
     print(frog_jump(heights, len(heights)-1))
 
-main()
-'''
+# main()
 
 
 # memoaization
